@@ -2,4 +2,6 @@
 
 name = input("What's your name la(ss|dd|x)ie")
 
-print(f'Hello {name}!')
+if isinstance(name,str):
+
+    print(f'Hello {name}!')
